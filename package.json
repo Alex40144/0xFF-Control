@@ -1,0 +1,24 @@
+{
+  "name": "0xff-control",
+  "version": "1.0.0",
+  "description": "Control Panel of the 0xFF Network",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "install": "electron-rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex40144/0xFF-Control.git"
+  },
+  "author": "Alex Pegg",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^13.1.6",
+    "electron-rebuild": "^2.3.5"
+  },
+  "dependencies": {
+    "serialport": "^9.2.8",
+    "tableify": "^1.1.0"
+  }
+}
